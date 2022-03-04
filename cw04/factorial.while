@@ -1,0 +1,12 @@
+// Factorial program written by Kamal A.
+
+write "input n: ";
+read n;
+sum := 1;
+
+for i := 1 upto n do {
+    sum := sum * i
+};
+
+write "n factorial is ";
+write sum
